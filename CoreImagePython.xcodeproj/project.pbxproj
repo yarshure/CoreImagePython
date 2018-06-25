@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5670B6CB20B63398003E6B64 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5670B6CA20B63398003E6B64 /* main.swift */; };
+		5679C26C20B9DE0A00BF1244 /* pyci_demo.py in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5679C26B20B9DDFB00BF1244 /* pyci_demo.py */; };
+		5679C26D20B9DE0A00BF1244 /* pyci.py in CopyFiles */ = {isa = PBXBuildFile; fileRef = 56AFAD9720B634CB002A7A12 /* pyci.py */; };
+		5679C29020B9E04F00BF1244 /* Sunset_5.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5679C27320B9E04200BF1244 /* Sunset_5.jpg */; };
+		5679C29520B9E04F00BF1244 /* Sunset_6.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5679C27820B9E04200BF1244 /* Sunset_6.jpg */; };
+		5679C29620B9E04F00BF1244 /* GGBridge_2.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5679C27920B9E04200BF1244 /* GGBridge_2.jpg */; };
+		5679C29820B9E04F00BF1244 /* Food_3.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5679C27B20B9E04200BF1244 /* Food_3.jpg */; };
+		5679C29C20B9E04F00BF1244 /* Food_1.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5679C27F20B9E04200BF1244 /* Food_1.jpg */; };
+		5679C2A120B9E04F00BF1244 /* Flowers_1.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5679C28420B9E04200BF1244 /* Flowers_1.jpg */; };
+		5679C2AA20B9E04F00BF1244 /* Landscape_3.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5679C28D20B9E04200BF1244 /* Landscape_3.jpg */; };
+		5679C2AC20B9E04F00BF1244 /* Landscape_1.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5679C28F20B9E04200BF1244 /* Landscape_1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5670B6C520B63398003E6B64 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				5679C29020B9E04F00BF1244 /* Sunset_5.jpg in CopyFiles */,
+				5679C29520B9E04F00BF1244 /* Sunset_6.jpg in CopyFiles */,
+				5679C29620B9E04F00BF1244 /* GGBridge_2.jpg in CopyFiles */,
+				5679C29820B9E04F00BF1244 /* Food_3.jpg in CopyFiles */,
+				5679C29C20B9E04F00BF1244 /* Food_1.jpg in CopyFiles */,
+				5679C2A120B9E04F00BF1244 /* Flowers_1.jpg in CopyFiles */,
+				5679C2AA20B9E04F00BF1244 /* Landscape_3.jpg in CopyFiles */,
+				5679C2AC20B9E04F00BF1244 /* Landscape_1.jpg in CopyFiles */,
+				5679C26C20B9DE0A00BF1244 /* pyci_demo.py in CopyFiles */,
+				5679C26D20B9DE0A00BF1244 /* pyci.py in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5670B6C720B63398003E6B64 /* CoreImagePython */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CoreImagePython; sourceTree = BUILT_PRODUCTS_DIR; };
+		5670B6CA20B63398003E6B64 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5679C26B20B9DDFB00BF1244 /* pyci_demo.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = pyci_demo.py; sourceTree = "<group>"; };
+		5679C27320B9E04200BF1244 /* Sunset_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sunset_5.jpg; sourceTree = "<group>"; };
+		5679C27820B9E04200BF1244 /* Sunset_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sunset_6.jpg; sourceTree = "<group>"; };
+		5679C27920B9E04200BF1244 /* GGBridge_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GGBridge_2.jpg; sourceTree = "<group>"; };
+		5679C27B20B9E04200BF1244 /* Food_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Food_3.jpg; sourceTree = "<group>"; };
+		5679C27F20B9E04200BF1244 /* Food_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Food_1.jpg; sourceTree = "<group>"; };
+		5679C28420B9E04200BF1244 /* Flowers_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flowers_1.jpg; sourceTree = "<group>"; };
+		5679C28D20B9E04200BF1244 /* Landscape_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Landscape_3.jpg; sourceTree = "<group>"; };
+		5679C28F20B9E04200BF1244 /* Landscape_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Landscape_1.jpg; sourceTree = "<group>"; };
+		5694223620C454A9008DCBA8 /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = setup.py; sourceTree = SOURCE_ROOT; };
+		5694223720C45580008DCBA8 /* pyci_launcher.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = pyci_launcher.py; path = pycoreimage/pyci_launcher.py; sourceTree = SOURCE_ROOT; };
+		56AFAD8F20B633C0002A7A12 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		56AFAD9620B634CB002A7A12 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		56AFAD9720B634CB002A7A12 /* pyci.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = pyci.py; sourceTree = "<group>"; };
+		E7C63110E7C6314000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		E7D62850E7D93EE000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5670B6C420B63398003E6B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5670B6BE20B63398003E6B64 = {
+			isa = PBXGroup;
+			children = (
+				56AFAD8F20B633C0002A7A12 /* README.md */,
+				5670B6C920B63398003E6B64 /* CoreImagePython */,
+				5670B6C820B63398003E6B64 /* Products */,
+				E7D60620E7D5FB0000000001 /* Configuration */,
+				E7F6F070E7F6F04000000001 /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		5670B6C820B63398003E6B64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5670B6C720B63398003E6B64 /* CoreImagePython */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5670B6C920B63398003E6B64 /* CoreImagePython */ = {
+			isa = PBXGroup;
+			children = (
+				5670B6CA20B63398003E6B64 /* main.swift */,
+				5694223620C454A9008DCBA8 /* setup.py */,
+				56AFAD9420B634CB002A7A12 /* pycoreimage */,
+			);
+			path = CoreImagePython;
+			sourceTree = "<group>";
+		};
+		5679C27220B9E04200BF1244 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				5679C27320B9E04200BF1244 /* Sunset_5.jpg */,
+				5679C27820B9E04200BF1244 /* Sunset_6.jpg */,
+				5679C27920B9E04200BF1244 /* GGBridge_2.jpg */,
+				5679C27B20B9E04200BF1244 /* Food_3.jpg */,
+				5679C27F20B9E04200BF1244 /* Food_1.jpg */,
+				5679C28420B9E04200BF1244 /* Flowers_1.jpg */,
+				5679C28D20B9E04200BF1244 /* Landscape_3.jpg */,
+				5679C28F20B9E04200BF1244 /* Landscape_1.jpg */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		56AFAD9420B634CB002A7A12 /* pycoreimage */ = {
+			isa = PBXGroup;
+			children = (
+				56AFAD9620B634CB002A7A12 /* __init__.py */,
+				5694223720C45580008DCBA8 /* pyci_launcher.py */,
+				5679C26B20B9DDFB00BF1244 /* pyci_demo.py */,
+				56AFAD9720B634CB002A7A12 /* pyci.py */,
+				5679C27220B9E04200BF1244 /* resources */,
+			);
+			path = pycoreimage;
+			sourceTree = SOURCE_ROOT;
+		};
+		E7D60620E7D5FB0000000001 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				E7D62850E7D93EE000000001 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		E7F6F070E7F6F04000000001 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				E7C63110E7C6314000000001 /* LICENSE.txt */,
+			);
+			name = LICENSE;
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5670B6C620B63398003E6B64 /* CoreImagePython */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5670B6CE20B63398003E6B64 /* Build configuration list for PBXNativeTarget "CoreImagePython" */;
+			buildPhases = (
+				5670B6C320B63398003E6B64 /* Sources */,
+				5670B6C420B63398003E6B64 /* Frameworks */,
+				5670B6C520B63398003E6B64 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreImagePython;
+			productName = CoreImagePython;
+			productReference = 5670B6C720B63398003E6B64 /* CoreImagePython */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXLegacyTarget section */
+		5694223120C35F8E008DCBA8 /* pycoreimage */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 5694223420C35F8E008DCBA8 /* Build configuration list for PBXLegacyTarget "pycoreimage" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			buildToolPath = /usr/bin/python;
+			dependencies = (
+			);
+			name = pycoreimage;
+			passBuildSettingsInEnvironment = 1;
+			productName = pycoreimage;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		5670B6BF20B63398003E6B64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					5670B6C620B63398003E6B64 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					5694223120C35F8E008DCBA8 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 5670B6C220B63398003E6B64 /* Build configuration list for PBXProject "CoreImagePython" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5670B6BE20B63398003E6B64;
+			productRefGroup = 5670B6C820B63398003E6B64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5670B6C620B63398003E6B64 /* CoreImagePython */,
+				5694223120C35F8E008DCBA8 /* pycoreimage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5670B6C320B63398003E6B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5670B6CB20B63398003E6B64 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5670B6CC20B63398003E6B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7D62850E7D93EE000000001 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5670B6CD20B63398003E6B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7D62850E7D93EE000000001 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5670B6CF20B63398003E6B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7D62850E7D93EE000000001 /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5670B6D020B63398003E6B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7D62850E7D93EE000000001 /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		5694223220C35F8E008DCBA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7D62850E7D93EE000000001 /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		5694223320C35F8E008DCBA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7D62850E7D93EE000000001 /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5670B6C220B63398003E6B64 /* Build configuration list for PBXProject "CoreImagePython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5670B6CC20B63398003E6B64 /* Debug */,
+				5670B6CD20B63398003E6B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5670B6CE20B63398003E6B64 /* Build configuration list for PBXNativeTarget "CoreImagePython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5670B6CF20B63398003E6B64 /* Debug */,
+				5670B6D020B63398003E6B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5694223420C35F8E008DCBA8 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5694223220C35F8E008DCBA8 /* Debug */,
+				5694223320C35F8E008DCBA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5670B6BF20B63398003E6B64 /* Project object */;
+}
